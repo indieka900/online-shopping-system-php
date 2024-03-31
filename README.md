@@ -22,14 +22,12 @@
 <h1>Projects We develop</h1>
 
 <ul>
-	<li><b>Vue JS</b></li>
-	<li><b>Nuxt JS</b></li>
 	<li><b>Python</b></li>
 	<li><b>Django</b></li>
 	<li><b>PHP and MYSQL</b></li>
-	<li><b>Angular JS</b></li>
-	<li><b>React JS</b></li>
-	<li><b>AI/ML</b></li>
+	<li><b>Dart</b></li>
+	<li><b>Flutter</b></li>
+	<li><b>Data Entry</b></li>
 </ul>
 <h2> Projects with installation support and code explaination for Premium contact gmail: indiekaj@gmail.com or visit</h2>
 
@@ -56,7 +54,7 @@
 
 8. after creating database name click on import.
 
-9. browse the file in directory[online-shopping-system-with-advanced-admin-page/database/onlineshop.sql].
+9. browse the file in directory[online-shopping-system/database/onlineshop.sql].
 
 10. after importing successfully.
 
