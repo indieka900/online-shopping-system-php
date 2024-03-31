@@ -60,11 +60,13 @@
 
 10. after importing successfully.
 
-11. open any browser and type http://localhost/online-shopping-system-with-advanced-admin-page-master.
+11. open any browser and type http://localhost/online-shopping-system.
 
 12. first register and then login
 
 13. admin login details  Email=admin@gmail.com or username = admin and Password=123456789.
+
+14. normal user login details email=test@test.com and password=Joseph900
 
 ## If you like my project 
 Bye me Cup of coffee

@@ -80,7 +80,7 @@ if (isset($_POST["brand"])) {
 }
 if (isset($_POST["page"])) {
 	$cid = $_POST["cid"];
-	$sql = "SELECT * FROM products Where product_cat='$cid' ";
+	$sql = "SELECT * FROM products Where product_cat='$cid' product_quantity > 0 ";
 	$run_query = mysqli_query($con, $sql);
 	$count = mysqli_num_rows($run_query);
 	$pageno = ceil($count / 9);
@@ -183,7 +183,7 @@ if (isset($_POST["get_seleted_Category"]) || isset($_POST["selectBrand"]) || iss
 	} else {
 
 		$keyword = $_POST["keyword"];
-		$sql = "SELECT * FROM products,categories WHERE product_cat=cat_id AND product_keywords AND product_quantity > 0 LIKE '%$keyword%'";
+		$sql = "SELECT * FROM products,categories WHERE product_keywords AND product_quantity > 0 LIKE '%$keyword%'";
 	}
 
 	$run_query = mysqli_query($con, $sql);
